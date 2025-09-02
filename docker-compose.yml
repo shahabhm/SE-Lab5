@@ -24,7 +24,7 @@ services:
       - .:/app
     working_dir: /app
     ports:
-      - "8000:8000"
+      - "8001:8000"
     networks:
       - django_network
     depends_on:
